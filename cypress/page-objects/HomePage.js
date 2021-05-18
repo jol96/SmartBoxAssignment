@@ -10,7 +10,7 @@ export class HomePage {
     }
 
     clickSeeMoreBtnPamperTreats() {
-        cy.get('.widget-type-d-43322 > .thematic-wrapper > .row > .slick-list > .slick-track > .slick-current > .thematic__wrapper-link > :nth-child(4) > .button')
+        cy.get('.widget-type-d-20779 > .thematic-wrapper > .row > .slick-list > .slick-track > .slick-current > .thematic__wrapper-link > :nth-child(4) > .button')
         .click()
     }
 }

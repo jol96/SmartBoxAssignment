@@ -31,7 +31,6 @@ describe('Add a random box from the ‘Our popular box’ section', ()=>{
 
 })
 
-
 Cypress.on('uncaught:exception', (err, runnable) => {
     return false
   })
